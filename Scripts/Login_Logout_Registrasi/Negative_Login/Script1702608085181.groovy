@@ -25,6 +25,8 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Home_Page/Button_MasukDaftar'))
 
+WebUI.delay(4)
+
 WebUI.verifyTextPresent('masuk ke akun anda', false)
 
 WebUI.takeScreenshot()
