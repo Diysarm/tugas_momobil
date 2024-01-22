@@ -6,12 +6,12 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'bonysinurat21@gmail.com\n'</initValue>
+      <initValue>'bonysinurat21@gmail.com'</initValue>
       <name>User</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456Adira'</initValue>
+      <initValue>'1234567Adira'</initValue>
       <name>Pass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

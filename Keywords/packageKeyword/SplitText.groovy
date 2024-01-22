@@ -54,4 +54,11 @@ public class SplitText {
 		}
 		return firstWords
 	}
+	@Keyword
+	def verifyFilterTahun(int result2, TestObject tahunMobil) {
+		for (int j = 0 ; j <= result2 ; j++) {
+			String carYear = WebUI.getText(findTestObject('Object Repository/Dealer_Rekanan_Page/label_TahunMobilImg', [('j') : j]))
+		}
+	}
 }
+
