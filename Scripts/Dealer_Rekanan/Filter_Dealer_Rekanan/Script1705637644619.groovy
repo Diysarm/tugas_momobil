@@ -17,17 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login_Logout_Registrasi/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Home_Page/hyperlink_MitraDealer'))
 
 WebUI.click(findTestObject('Home_Page/button_DealerRekanan'))
 
 WebUI.verifyElementText(findTestObject('Dealer_Rekanan_Page/label_DealerRekanan'), 'dealer rekanan')
 
-WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_DealerAbadaiMegahMotor'), 0)
+WebUI.scrollToPosition(20, 0)
 
 WebUI.click(findTestObject('Dealer_Rekanan_Page/button_DealerAbadaiMegahMotor'))
 
 WebUI.verifyElementText(findTestObject('Dealer_Rekanan_Page/label_AbadiMegahMotor'), 'ABADI MEGAH MOTOR')
+
+WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_Promo'), 0)
 
 WebUI.click(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'))
 

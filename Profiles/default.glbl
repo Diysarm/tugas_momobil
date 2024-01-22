@@ -14,4 +14,9 @@
       <initValue>'1234567Adira'</initValue>
       <name>Pass</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1</initValue>
+      <name>i</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

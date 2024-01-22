@@ -6,11 +6,11 @@
    <elementGuidId>0d89aa52-452a-4c00-a6c5-7a4a60671a76</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[4]/div[2]/div[2]/div[5]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;bodyStyleDealer&quot;]/descendant::a[@href='/dealer/abadi-megah-motor']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
