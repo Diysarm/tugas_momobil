@@ -19,4 +19,19 @@
       <initValue>1</initValue>
       <name>i</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>j</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2017'</initValue>
+      <name>ThnProduksiMin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2024'</initValue>
+      <name>ThnProduksiMax</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

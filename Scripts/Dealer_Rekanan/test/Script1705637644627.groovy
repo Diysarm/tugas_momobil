@@ -17,14 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'))
+WebUI.clearText(findTestObject('Dealer_Rekanan_Page/textbox_FilterTahunProduksiMIN'))
+
+WebUI.setText(findTestObject('Dealer_Rekanan_Page/textbox_FilterTahunProduksiMIN'), GlobalVariable.ThnProduksiMin)
+
+WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_Promo'), 0)
+
+WebUI.click(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
 
 WebUI.delay(4)
 
 jumlah = WebUI.getText(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
 
-mobil = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(jumlah)
+tahunProduksi = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(jumlah)
 
-CustomKeywords.'packageKeyword.SplitText.splitTextMobil'(mobil, findTestObject('Dealer_Rekanan_Page/label_HeaderMobil', 
-        [(GlobalVariable.i) : GlobalVariable.i]))
+CustomKeywords.'packageKeyword.SplitText.verifyFilterTahun'(tahunProduksi, findTestObject('Dealer_Rekanan_Page/label_TahunMobilImg', 
+        [(GlobalVariable.j) : GlobalVariable.j]))
 

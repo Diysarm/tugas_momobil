@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;ember197&quot;]</value>
+         <value>//*[@href=&quot;/dealer&quot;]/child::p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

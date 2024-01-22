@@ -42,3 +42,24 @@ mobil = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(jumlah)
 CustomKeywords.'packageKeyword.SplitText.splitTextMobil'(mobil, findTestObject('Dealer_Rekanan_Page/label_HeaderMobil', 
         [(GlobalVariable.i) : GlobalVariable.i]))
 
+WebUI.click(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'))
+
+WebUI.delay(4)
+
+WebUI.clearText(findTestObject('Dealer_Rekanan_Page/textbox_FilterTahunProduksiMIN'))
+
+WebUI.setText(findTestObject('Dealer_Rekanan_Page/textbox_FilterTahunProduksiMIN'), GlobalVariable.ThnProduksiMin)
+
+WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_Promo'), 0)
+
+WebUI.click(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
+
+WebUI.delay(4)
+
+jumlah2 = WebUI.getText(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
+
+tahunProduksi = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(jumlah2)
+
+CustomKeywords.'packageKeyword.SplitText.verifyFilterTahun'(tahunProduksi, findTestObject('Dealer_Rekanan_Page/label_TahunMobilImg', 
+        [(GlobalVariable.j) : GlobalVariable.j]))
+
