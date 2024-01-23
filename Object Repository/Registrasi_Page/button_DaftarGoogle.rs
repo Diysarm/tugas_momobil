@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_MasukDaftar</name>
+   <name>button_DaftarGoogle</name>
    <tag></tag>
-   <elementGuidId>40cb73b7-6315-4db5-9273-d74d0919a637</elementGuidId>
+   <elementGuidId>1a118041-d803-478e-96a4-6e0d4b45761e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@href=&quot;/dashboard/user/login&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;button_daftarViaGoole&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

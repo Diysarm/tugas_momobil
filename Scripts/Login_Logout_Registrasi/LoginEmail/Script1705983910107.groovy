@@ -24,21 +24,21 @@ WebUI.navigateToUrl('https://uat.momobil.id/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Home_Page/Button_MasukDaftar'))
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Home_Page/Button_Masuk'))
 
 WebUI.delay(4)
 
-WebUI.waitForElementPresent(findTestObject('Home_Page/Button_MasukDaftar'), 0)
-
 WebUI.verifyTextPresent('masuk ke akun anda', false)
 
-WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), GlobalVariable.User)
+WebUI.setText(findTestObject('Login_Page/textbox_EmailOrPhone'), GlobalVariable.User)
 
 WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Login_Page/textarea_Password'), GlobalVariable.Pass)
+WebUI.setText(findTestObject('Login_Page/textbox_Password'), GlobalVariable.Pass)
 
 WebUI.verifyElementClickable(findTestObject('Login_Page/button_Masuk'))
 
@@ -46,7 +46,7 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Login_Page/button_Masuk'))
 
-WebUI.takeScreenshot()
-
 WebUI.verifyElementVisible(findTestObject('Home_Page/Button_User'))
+
+WebUI.takeScreenshot()
 

@@ -5,30 +5,4 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b81dcd6f-fef3-401a-bd97-7547e7fc6e99</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8c80c29e-b30d-44ac-ab9d-f4c5fccda602</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>b31abc60-4da5-43b0-b50f-10419eabebbd</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'081806755629'</defaultValue>
-      <description></description>
-      <id>8c80c29e-b30d-44ac-ab9d-f4c5fccda602</id>
-      <masked>false</masked>
-      <name>noHP</name>
-   </variable>
-   <variable>
-      <defaultValue>'@Dira2023'</defaultValue>
-      <description></description>
-      <id>b31abc60-4da5-43b0-b50f-10419eabebbd</id>
-      <masked>false</masked>
-      <name>password</name>
-   </variable>
 </TestCaseEntity>
