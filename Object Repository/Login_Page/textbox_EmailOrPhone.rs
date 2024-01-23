@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Promo</name>
+   <name>textbox_EmailOrPhone</name>
    <tag></tag>
-   <elementGuidId>b0edf0ad-459d-4bea-803f-29a6c98b6b0a</elementGuidId>
+   <elementGuidId>1545214e-cfc5-4de9-b9b5-a2f0b2df0e04</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@aria-controls='promo_tabs']</value>
+         <value>//input[@id='textbox_emailAtauNomorPonsel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

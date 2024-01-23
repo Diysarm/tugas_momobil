@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Promo</name>
+   <name>checkbox_UserConsent</name>
    <tag></tag>
-   <elementGuidId>b0edf0ad-459d-4bea-803f-29a6c98b6b0a</elementGuidId>
+   <elementGuidId>5f6b27f6-1b8a-4c31-860c-d54cf8b264ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@aria-controls='promo_tabs']</value>
+         <value>//*[@id=&quot;checkbox_syaratDanKetentuan&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

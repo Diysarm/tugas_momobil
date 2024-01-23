@@ -17,14 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'))
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://uat.momobil.id/')
+
+WebUI.maximizeWindow()
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Home_Page/Button_Masuk'))
 
 WebUI.delay(4)
 
-jumlah = WebUI.getText(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
+WebUI.verifyTextPresent('masuk ke akun anda', false)
 
-mobil = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(jumlah)
+WebUI.click(findTestObject('Login_Page/button_MasukViaGoogle'), FailureHandling.STOP_ON_FAILURE)
 
-CustomKeywords.'packageKeyword.SplitText.splitTextMobil'(mobil, findTestObject('Dealer_Rekanan_Page/label_HeaderMobil', 
-        [(GlobalVariable.i) : GlobalVariable.i]))
+WebUI.takeScreenshot()
 

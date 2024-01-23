@@ -14,70 +14,55 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://uat.momobil.id/')
+'buka browser'
+WebUI.openBrowser('')
 
+'pergi ke url momobil'
+WebUI.navigateToUrl('https://uat.momobil.id/')
+
+'maximize window browser'
 WebUI.maximizeWindow()
 
+'ambil screenshot'
 WebUI.takeScreenshot()
 
+'klik button masuk untuk login'
 WebUI.click(findTestObject('Home_Page/Button_Masuk'))
 
+'delay 4 detik untuk menunggu web load'
 WebUI.delay(4)
 
+'verifikasi teks yang ada pada header login'
 WebUI.verifyTextPresent('masuk ke akun anda', false)
 
-WebUI.takeScreenshot()
+'input no HP untuk login'
+WebUI.setText(findTestObject('Login_Page/textbox_EmailOrPhone'), GlobalVariable.noHPLogin)
 
+'verifikasi button masuk tidak bisa diklik setelah isi no HP'
 WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
 
-WebUI.setText(findTestObject('Login_Page/textbox_EmailOrPhone'), GlobalVariable.User)
-
-WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
-
+'ambil screenshot'
 WebUI.takeScreenshot()
 
-WebUI.clearText(findTestObject('Login_Page/textbox_EmailOrPhone'))
-
-WebUI.takeScreenshot()
-
+'input password untuk login'
 WebUI.setText(findTestObject('Login_Page/textbox_Password'), GlobalVariable.Pass)
 
+'verifikasi button masuk sudah bisa diklik setelah input password'
+WebUI.verifyElementClickable(findTestObject('Login_Page/button_Masuk'))
+
+'ambil screenshot'
 WebUI.takeScreenshot()
 
-WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('Login_Page/textbox_EmailOrPhone'), 'heyo@mailinator.com')
-
-WebUI.takeScreenshot()
-
+'klik button masuk untuk login'
 WebUI.click(findTestObject('Login_Page/button_Masuk'))
 
-WebUI.verifyElementText(findTestObject('Login_Page/label_ErrorMessage'), 'Invalid Username/Password.')
+'verifikasi jika sudah berhasil login'
+WebUI.verifyElementVisible(findTestObject('Home_Page/Button_User'))
 
-WebUI.takeScreenshot()
-
-WebUI.clearText(findTestObject('Login_Page/textbox_EmailOrPhone'))
-
-WebUI.refresh()
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('Login_Page/textbox_EmailOrPhone'), GlobalVariable.User)
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('Login_Page/textbox_Password'), '1234567890')
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Login_Page/button_Masuk'))
-
-WebUI.verifyElementText(findTestObject('Login_Page/label_ErrorMessage'), 'Invalid Username/Password.')
-
+'ambil screenshot'
 WebUI.takeScreenshot()
 

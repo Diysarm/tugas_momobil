@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Promo</name>
+   <name>button_Daftar</name>
    <tag></tag>
-   <elementGuidId>b0edf0ad-459d-4bea-803f-29a6c98b6b0a</elementGuidId>
+   <elementGuidId>78887012-6f9e-403a-9d4e-67029fa1435b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@aria-controls='promo_tabs']</value>
+         <value>//*[@id=&quot;bs-navbar-collapse&quot;]/descendant::a[contains(text(),'Daftar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

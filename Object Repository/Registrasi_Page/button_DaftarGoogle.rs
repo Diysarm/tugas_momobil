@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Password</name>
+   <name>button_DaftarGoogle</name>
    <tag></tag>
-   <elementGuidId>476f5d82-9dc0-40a1-bf85-4819a91cb08f</elementGuidId>
+   <elementGuidId>1a118041-d803-478e-96a4-6e0d4b45761e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='password_id']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;button_daftarViaGoole&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,11 +6,11 @@
    <elementGuidId>3d7a0514-5a50-4fc9-8999-dd645c9119b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='daftar_btn']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@id='button_daftar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
