@@ -37,6 +37,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'085174415629'</initValue>
-      <name>noHP</name>
+      <name>noHPLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'081806755629'</initValue>
+      <name>noHPDaftar</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
