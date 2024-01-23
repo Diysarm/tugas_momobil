@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Login_Logout</name>
+   <name>Filter_DealerRekanan</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>b37fab53-7f58-4bb7-ac81-99b13f362968</testSuiteGuid>
+   <testSuiteGuid>55e5240e-1009-4d9a-be57-3f5c1381cf9f</testSuiteGuid>
    <testCaseLink>
-      <guid>cb6be3aa-7308-46ea-b8b0-2bb962f43c1f</guid>
+      <guid>ab5cced6-d028-4fb4-9346-4a11997ee0b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login_Logout_Registrasi/LoginEmail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a2e950a-7cb2-4e30-9705-136fd2066da3</guid>
+      <guid>e95f4c83-d4f1-4d7c-ac42-a5368b2201ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_Logout_Registrasi/Logout</testCaseId>
+      <testCaseId>Test Cases/Dealer_Rekanan/Filter_Dealer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

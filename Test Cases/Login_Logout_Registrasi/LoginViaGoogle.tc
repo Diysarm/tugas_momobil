@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Registrasi_Akun</name>
+   <name>LoginViaGoogle</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b81dcd6f-fef3-401a-bd97-7547e7fc6e99</testCaseGuid>
+   <testCaseGuid>da3d2fa9-9bc7-4b1a-bb2f-629d9cffcc47</testCaseGuid>
 </TestCaseEntity>

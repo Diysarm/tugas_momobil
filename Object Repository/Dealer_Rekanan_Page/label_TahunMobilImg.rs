@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Promo</name>
+   <name>label_TahunMobilImg</name>
    <tag></tag>
-   <elementGuidId>b0edf0ad-459d-4bea-803f-29a6c98b6b0a</elementGuidId>
+   <elementGuidId>4e863d29-65e4-4bfe-903b-06a32c793778</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@aria-controls='promo_tabs']</value>
+         <value>//*[@id=&quot;label_card${j}_mobilBaru&quot;]/descendant::div[@class='year-wrapper-bottom']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_EmailOrPhone</name>
+   <name>button_MasukViaGoogle</name>
    <tag></tag>
-   <elementGuidId>1545214e-cfc5-4de9-b9b5-a2f0b2df0e04</elementGuidId>
+   <elementGuidId>b6442492-d949-40ae-bc8c-4321f8dae65a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='email_id']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;button_masukViaGoogle&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

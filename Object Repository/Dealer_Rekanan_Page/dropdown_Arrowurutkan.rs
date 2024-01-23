@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_MasukDaftar</name>
+   <name>dropdown_Arrowurutkan</name>
    <tag></tag>
-   <elementGuidId>40cb73b7-6315-4db5-9273-d74d0919a637</elementGuidId>
+   <elementGuidId>0a067496-e54d-4507-89fa-4c3ec6eaa0e4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@href=&quot;/dashboard/user/login&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;arrow-all-sort&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

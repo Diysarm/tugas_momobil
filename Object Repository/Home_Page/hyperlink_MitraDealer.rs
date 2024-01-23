@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Promo</name>
+   <name>hyperlink_MitraDealer</name>
    <tag></tag>
-   <elementGuidId>b0edf0ad-459d-4bea-803f-29a6c98b6b0a</elementGuidId>
+   <elementGuidId>32149c2d-03f4-4751-878d-0979b7e79bcb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@aria-controls='promo_tabs']</value>
+         <value>//*[@id=&quot;bs-navbar-collapse&quot;]/descendant::span[contains(text(), 'Mitra Dealer')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
