@@ -37,7 +37,7 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Registrasi_Page/textbox_EmailOrPhone'))
 
-WebUI.setText(findTestObject('Registrasi_Page/textbox_EmailOrPhone'), GlobalVariable.noHP)
+WebUI.setText(findTestObject('Registrasi_Page/textbox_EmailOrPhone'), GlobalVariable.noHPDaftar)
 
 WebUI.takeScreenshot()
 

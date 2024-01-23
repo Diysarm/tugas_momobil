@@ -22,7 +22,7 @@
       <guid>e95f4c83-d4f1-4d7c-ac42-a5368b2201ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dealer_Rekanan/Filter_Dealer_Rekanan</testCaseId>
+      <testCaseId>Test Cases/Dealer_Rekanan/Filter_Dealer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
