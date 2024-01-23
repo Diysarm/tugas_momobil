@@ -6,11 +6,11 @@
    <elementGuidId>1545214e-cfc5-4de9-b9b5-a2f0b2df0e04</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='email_id']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@id='textbox_emailAtauNomorPonsel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

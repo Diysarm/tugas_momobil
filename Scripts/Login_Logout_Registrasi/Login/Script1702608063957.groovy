@@ -24,6 +24,8 @@ WebUI.navigateToUrl('https://uat.momobil.id/')
 
 WebUI.maximizeWindow()
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Home_Page/Button_MasukDaftar'))
 
 WebUI.delay(4)
@@ -46,7 +48,7 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Login_Page/button_Masuk'))
 
-WebUI.takeScreenshot()
-
 WebUI.verifyElementVisible(findTestObject('Home_Page/Button_User'))
+
+WebUI.takeScreenshot()
 

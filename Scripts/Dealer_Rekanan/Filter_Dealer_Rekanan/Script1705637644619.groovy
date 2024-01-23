@@ -19,21 +19,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.mouseOver(findTestObject('Home_Page/hyperlink_MitraDealer'))
 
+WebUI.verifyElementVisible(findTestObject('Home_Page/button_DealerRekanan'))
+
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Home_Page/button_DealerRekanan'))
 
 WebUI.verifyElementText(findTestObject('Dealer_Rekanan_Page/label_DealerRekanan'), 'dealer rekanan')
 
+WebUI.takeScreenshot()
+
 WebUI.scrollToPosition(20, 0)
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Dealer_Rekanan_Page/button_DealerAbadaiMegahMotor'))
 
 WebUI.verifyElementText(findTestObject('Dealer_Rekanan_Page/label_AbadiMegahMotor'), 'ABADI MEGAH MOTOR')
 
+WebUI.takeScreenshot()
+
 WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_Promo'), 0)
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'))
 
 WebUI.delay(4)
+
+WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_Promo'), 0)
+
+WebUI.takeScreenshot()
 
 jumlah = WebUI.getText(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
 
@@ -46,15 +62,25 @@ WebUI.click(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'))
 
 WebUI.delay(4)
 
+WebUI.takeScreenshot()
+
+WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'), 0)
+
 WebUI.clearText(findTestObject('Dealer_Rekanan_Page/textbox_FilterTahunProduksiMIN'))
 
+WebUI.takeScreenshot()
+
 WebUI.setText(findTestObject('Dealer_Rekanan_Page/textbox_FilterTahunProduksiMIN'), GlobalVariable.ThnProduksiMin)
+
+WebUI.takeScreenshot()
 
 WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_Promo'), 0)
 
 WebUI.click(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
 
 WebUI.delay(4)
+
+WebUI.takeScreenshot()
 
 jumlah2 = WebUI.getText(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
 
