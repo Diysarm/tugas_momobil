@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Registrasi_Akun</name>
+   <name>LoginNoHP</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b81dcd6f-fef3-401a-bd97-7547e7fc6e99</testCaseGuid>
+   <testCaseGuid>1551c38a-312a-4fb4-8d7c-812de103dc7c</testCaseGuid>
 </TestCaseEntity>

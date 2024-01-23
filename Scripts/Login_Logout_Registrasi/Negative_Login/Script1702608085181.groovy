@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Home_Page/Button_MasukDaftar'))
+WebUI.click(findTestObject('Home_Page/Button_Masuk'))
 
 WebUI.delay(4)
 
@@ -33,17 +33,17 @@ WebUI.takeScreenshot()
 
 WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
 
-WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), GlobalVariable.User)
+WebUI.setText(findTestObject('Login_Page/textbox_EmailOrPhone'), GlobalVariable.User)
 
 WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
 
 WebUI.takeScreenshot()
 
-WebUI.clearText(findTestObject('Login_Page/textarea_EmailOrPhone'))
+WebUI.clearText(findTestObject('Login_Page/textbox_EmailOrPhone'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Login_Page/textarea_Password'), GlobalVariable.Pass)
+WebUI.setText(findTestObject('Login_Page/textbox_Password'), GlobalVariable.Pass)
 
 WebUI.takeScreenshot()
 
@@ -51,7 +51,7 @@ WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), 'heyo@mailinator.com')
+WebUI.setText(findTestObject('Login_Page/textbox_EmailOrPhone'), 'heyo@mailinator.com')
 
 WebUI.takeScreenshot()
 
@@ -61,17 +61,17 @@ WebUI.verifyElementText(findTestObject('Login_Page/label_ErrorMessage'), 'Invali
 
 WebUI.takeScreenshot()
 
-WebUI.clearText(findTestObject('Login_Page/textarea_EmailOrPhone'))
+WebUI.clearText(findTestObject('Login_Page/textbox_EmailOrPhone'))
 
 WebUI.refresh()
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Login_Page/textarea_EmailOrPhone'), GlobalVariable.User)
+WebUI.setText(findTestObject('Login_Page/textbox_EmailOrPhone'), GlobalVariable.User)
 
 WebUI.takeScreenshot()
 
-WebUI.setText(findTestObject('Login_Page/textarea_Password'), '1234567890')
+WebUI.setText(findTestObject('Login_Page/textbox_Password'), '1234567890')
 
 WebUI.takeScreenshot()
 

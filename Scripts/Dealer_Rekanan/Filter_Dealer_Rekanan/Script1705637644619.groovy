@@ -89,3 +89,25 @@ tahunProduksi = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(jumlah
 CustomKeywords.'packageKeyword.SplitText.verifyFilterTahun'(tahunProduksi, findTestObject('Dealer_Rekanan_Page/label_TahunMobilImg', 
         [(GlobalVariable.j) : GlobalVariable.j]))
 
+WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/label_AbadiMegahMotor'), 0)
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Dealer_Rekanan_Page/button_Promo'))
+
+WebUI.verifyElementVisible(findTestObject('Dealer_Rekanan_Page/label_HalamanKosongPromo'))
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Dealer_Rekanan_Page/button_Aktivitas'))
+
+WebUI.verifyElementVisible(findTestObject('Dealer_Rekanan_Page/label_HalamanKosongAktivitas'))
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Dealer_Rekanan_Page/button_Catatan'))
+
+WebUI.verifyElementVisible(findTestObject('Dealer_Rekanan_Page/label_CatatanSosialMedia'))
+
+WebUI.takeScreenshot()
+

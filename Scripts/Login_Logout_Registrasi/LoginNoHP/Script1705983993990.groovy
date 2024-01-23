@@ -14,16 +14,39 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Home_Page/Button_User'))
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://uat.momobil.id/')
+
+WebUI.maximizeWindow()
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Home_Page/Button_Logout'))
+WebUI.click(findTestObject('Home_Page/Button_Masuk'))
 
-WebUI.verifyElementClickable(findTestObject('Home_Page/Button_Masuk'))
+WebUI.delay(4)
 
-WebUI.verifyElementVisible(findTestObject('Home_Page/Button_Masuk'))
+WebUI.verifyTextPresent('masuk ke akun anda', false)
+
+WebUI.setText(findTestObject('Login_Page/textbox_EmailOrPhone'), GlobalVariable.User)
+
+WebUI.verifyElementNotClickable(findTestObject('Login_Page/button_Masuk'))
+
+WebUI.takeScreenshot()
+
+WebUI.setText(findTestObject('Login_Page/textbox_Password'), GlobalVariable.Pass)
+
+WebUI.verifyElementClickable(findTestObject('Login_Page/button_Masuk'))
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Login_Page/button_Masuk'))
+
+WebUI.verifyElementVisible(findTestObject('Home_Page/Button_User'))
+
+WebUI.takeScreenshot()
 

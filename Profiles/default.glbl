@@ -34,4 +34,9 @@
       <initValue>'2024'</initValue>
       <name>ThnProduksiMax</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'085174415629'</initValue>
+      <name>noHP</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

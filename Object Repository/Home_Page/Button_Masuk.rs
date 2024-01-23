@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Password</name>
+   <name>Button_Masuk</name>
    <tag></tag>
-   <elementGuidId>a894e928-8766-4f4c-90d3-a37523271eb0</elementGuidId>
+   <elementGuidId>40cb73b7-6315-4db5-9273-d74d0919a637</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;textbox_masukkanEmailatauNomorPonsel&quot;]</value>
+         <value>//a[@href=&quot;/dashboard/user/login&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

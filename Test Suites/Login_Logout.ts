@@ -15,7 +15,7 @@
       <guid>cb6be3aa-7308-46ea-b8b0-2bb962f43c1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_Logout_Registrasi/Login</testCaseId>
+      <testCaseId>Test Cases/Login_Logout_Registrasi/LoginEmail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

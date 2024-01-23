@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Password</name>
+   <name>textbox_Password</name>
    <tag></tag>
-   <elementGuidId>a894e928-8766-4f4c-90d3-a37523271eb0</elementGuidId>
+   <elementGuidId>fba6f2bf-1677-4dae-8179-f89a2ebfc48c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;textbox_masukkanEmailatauNomorPonsel&quot;]</value>
+         <value>//*[@id=&quot;password&quot;]/descendant::input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

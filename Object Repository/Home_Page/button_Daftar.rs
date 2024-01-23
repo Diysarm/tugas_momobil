@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_EmailOrPhone</name>
+   <name>button_Daftar</name>
    <tag></tag>
-   <elementGuidId>1545214e-cfc5-4de9-b9b5-a2f0b2df0e04</elementGuidId>
+   <elementGuidId>78887012-6f9e-403a-9d4e-67029fa1435b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='textbox_emailAtauNomorPonsel']</value>
+         <value>//*[@id=&quot;bs-navbar-collapse&quot;]/descendant::a[contains(text(),'Daftar')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
