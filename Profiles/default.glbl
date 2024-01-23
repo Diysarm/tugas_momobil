@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'123456Adira'</initValue>
+      <initValue>'1234567Adira'</initValue>
       <name>Pass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
