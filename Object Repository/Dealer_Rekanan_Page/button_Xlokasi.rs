@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_DealerRekanan</name>
+   <name>button_Xlokasi</name>
    <tag></tag>
-   <elementGuidId>c327072a-6eff-4d54-ad06-a8b223653199</elementGuidId>
+   <elementGuidId>09a196b9-705a-4b25-a4a8-09461dd265aa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Mitra Dealer')]/following-sibling::ul/descendant::p[contains(text(),'Dealer Rekanan')]</value>
+         <value>//*[@id=&quot;filter-city&quot;]/span/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

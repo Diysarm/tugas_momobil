@@ -44,4 +44,14 @@
       <initValue>'081806755629'</initValue>
       <name>noHPDaftar</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'JABAR'</initValue>
+      <name>JABAR</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'JAKARTA SELATAN'</initValue>
+      <name>JAKARTASELATAN</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
