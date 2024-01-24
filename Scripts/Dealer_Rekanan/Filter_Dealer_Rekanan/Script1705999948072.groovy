@@ -17,97 +17,72 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'hover mouse ke mitra dealer'
 WebUI.mouseOver(findTestObject('Home_Page/hyperlink_MitraDealer'))
 
+'verifikasi button dealer rekanan terlihat'
 WebUI.verifyElementVisible(findTestObject('Home_Page/button_DealerRekanan'))
 
+'ambil screenshot'
 WebUI.takeScreenshot()
 
+'klik button dealer rekanan'
 WebUI.click(findTestObject('Home_Page/button_DealerRekanan'))
 
+'verifikasi teks "dealer rekanan"'
 WebUI.verifyElementText(findTestObject('Dealer_Rekanan_Page/label_DealerRekanan'), 'dealer rekanan')
 
+'ambil screenshot'
 WebUI.takeScreenshot()
 
+'scroll ke posisi tertentu'
 WebUI.scrollToPosition(20, 0)
 
+'ambil screenshot'
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Dealer_Rekanan_Page/button_DealerAbadaiMegahMotor'))
+'input teks lokasi'
+WebUI.setText(findTestObject('Dealer_Rekanan_Page/textbox_Lokasi'), GlobalVariable.JAKARTASELATAN)
 
-WebUI.verifyElementText(findTestObject('Dealer_Rekanan_Page/label_AbadiMegahMotor'), 'ABADI MEGAH MOTOR')
-
+'ambil screenshot'
 WebUI.takeScreenshot()
 
-WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_Promo'), 0)
+'klik dropdown lokasi'
+WebUI.click(findTestObject('Dealer_Rekanan_Page/dropdown_LokasiJakartaSelatan'))
 
+'scroll ke posisi tertentu'
+WebUI.scrollToPosition(35, 0)
+
+'verifikasi teks yang muncul pada filter'
+WebUI.verifyElementText(findTestObject('Dealer_Rekanan_Page/label_MenampilkanDaerahSTRONG'), GlobalVariable.JAKARTASELATAN)
+
+'verifikasi element region tidak bisa diklik'
+WebUI.verifyElementNotClickable(findTestObject('Dealer_Rekanan_Page/textbox_Region'))
+
+'delay 2 detik'
+WebUI.delay(2)
+
+'ambil screenshot'
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'))
+'klik x pada filter lokasi'
+WebUI.click(findTestObject('Dealer_Rekanan_Page/button_Xlokasi'))
 
-WebUI.delay(4)
+'input teks pada field region'
+WebUI.setText(findTestObject('Dealer_Rekanan_Page/textbox_Region'), GlobalVariable.JABAR)
 
-WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_Promo'), 0)
-
+'ambil screenshot'
 WebUI.takeScreenshot()
 
-jumlah = WebUI.getText(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
+'klik dropdown jabar'
+WebUI.click(findTestObject('Dealer_Rekanan_Page/dropdown_RegionJabar'))
 
-mobil = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(jumlah)
+'verifikasi teks yang muncul pada filter'
+WebUI.verifyElementText(findTestObject('Dealer_Rekanan_Page/label_MenampilkanDaerahSTRONG'), GlobalVariable.JABAR)
 
-CustomKeywords.'packageKeyword.SplitText.splitTextMobil'(mobil, findTestObject('Dealer_Rekanan_Page/label_HeaderMobil', 
-        [(GlobalVariable.i) : GlobalVariable.i]))
-
-WebUI.click(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'))
-
-WebUI.delay(4)
-
+'ambil screenshot'
 WebUI.takeScreenshot()
 
-WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/checkbox_Toyota'), 0)
-
-WebUI.clearText(findTestObject('Dealer_Rekanan_Page/textbox_FilterTahunProduksiMIN'))
-
-WebUI.takeScreenshot()
-
-WebUI.setText(findTestObject('Dealer_Rekanan_Page/textbox_FilterTahunProduksiMIN'), GlobalVariable.ThnProduksiMin)
-
-WebUI.takeScreenshot()
-
-WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/button_Promo'), 0)
-
-WebUI.click(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
-
-WebUI.delay(4)
-
-WebUI.takeScreenshot()
-
-jumlah2 = WebUI.getText(findTestObject('Dealer_Rekanan_Page/label_DitemukanJumlahMobil'))
-
-tahunProduksi = CustomKeywords.'packageKeyword.SplitText.stringToInteger'(jumlah2)
-
-CustomKeywords.'packageKeyword.SplitText.verifyFilterTahun'(tahunProduksi, findTestObject('Dealer_Rekanan_Page/label_TahunMobilImg', 
-        [(GlobalVariable.j) : GlobalVariable.j]))
-
-WebUI.scrollToElement(findTestObject('Dealer_Rekanan_Page/label_AbadiMegahMotor'), 0)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Dealer_Rekanan_Page/button_Promo'))
-
-WebUI.verifyElementVisible(findTestObject('Dealer_Rekanan_Page/label_HalamanKosongPromo'))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Dealer_Rekanan_Page/button_Aktivitas'))
-
-WebUI.verifyElementVisible(findTestObject('Dealer_Rekanan_Page/label_HalamanKosongAktivitas'))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Dealer_Rekanan_Page/button_Catatan'))
-
-WebUI.verifyElementVisible(findTestObject('Dealer_Rekanan_Page/label_CatatanSosialMedia'))
-
-WebUI.takeScreenshot()
+'verifikasi element tidak bisa diklik'
+WebUI.verifyElementNotClickable(findTestObject('Dealer_Rekanan_Page/textbox_Lokasi'))
 
