@@ -6,12 +6,11 @@
    <elementGuidId>3463fbf4-8d80-4cea-b934-621639a6f22d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;pilih-asuransi&quot;]/div/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;pilih-asuransi&quot;]/descendant::*[contains(text(),'Comprehensive')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

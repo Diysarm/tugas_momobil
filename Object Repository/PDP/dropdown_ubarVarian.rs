@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_cicilanAsuransi</name>
+   <name>dropdown_ubarVarian</name>
    <tag></tag>
-   <elementGuidId>ddc0dcf7-5f09-46ef-ad2b-f350620554ff</elementGuidId>
+   <elementGuidId>15b179c6-e45f-4709-9f90-125236c2d8e1</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;pilih_varian_mobile&quot;]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//*[contains(text(),'Rp 17.812.500')])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

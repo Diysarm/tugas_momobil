@@ -21,21 +21,23 @@ WebUI.openBrowser('https://uat.momobil.id/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Home_Page/button_mobilBekas'))
+WebUI.click(findTestObject('Home_Page/button_mobilBaru'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementVisible(findTestObject('Katalog_mobilBekas/label_unitUcar'))
+WebUI.verifyElementVisible(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
-WebUI.click(findTestObject('Katalog_mobilBekas/label_unitUcar'))
+WebUI.click(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementVisible(findTestObject('PDP/label_tenor'))
+WebUI.verifyElementVisible(findTestObject('PDP/label_biayaTambahan'))
 
-WebUI.click(findTestObject('PDP/button_tenor48'))
+WebUI.click(findTestObject('PDP/dropdown_biayaTambahan'))
 
-WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanUCAR'))
+WebUI.click(findTestObject('PDP/label_biayaTambahanKredit'))
+
+WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanKreditNCAR'))
 
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))
 

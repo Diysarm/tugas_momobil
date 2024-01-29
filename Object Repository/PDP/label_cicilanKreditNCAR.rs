@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_cicilan</name>
+   <name>label_cicilanKreditNCAR</name>
    <tag></tag>
-   <elementGuidId>33f61854-4d7e-4c02-8e35-e33dc6d464ec</elementGuidId>
+   <elementGuidId>53836cd0-bd41-4b1c-96be-860c58ab7de0</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[contains(text(),'11.442.400')])[3]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//*[contains(text(),'Rp 10.468.800')])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

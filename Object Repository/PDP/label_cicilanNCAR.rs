@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_angsuranPertama</name>
+   <name>label_cicilanNCAR</name>
    <tag></tag>
-   <elementGuidId>21cde1d8-e8cf-40e8-b95b-ef0a1d190e61</elementGuidId>
+   <elementGuidId>7d478d05-7471-486c-8fa2-612b2dd11045</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;pembayaran-angsuran&quot;]/div/div/div</value>
+         <value>(//*[contains(text(),'6.267.300')])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

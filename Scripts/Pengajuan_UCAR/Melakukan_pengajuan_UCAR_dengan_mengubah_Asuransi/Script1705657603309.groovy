@@ -37,7 +37,7 @@ WebUI.click(findTestObject('PDP/dropdown_asuransi'))
 
 WebUI.click(findTestObject('PDP/label_asuransiKombinasi'))
 
-WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanAsuransi'))
+WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanAsuransiUCAR'))
 
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))
 

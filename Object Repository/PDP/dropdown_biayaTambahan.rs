@@ -6,12 +6,11 @@
    <elementGuidId>fe6a3152-9d8e-43af-b75e-9479e2e01e49</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;biaya-tambahan&quot;]/div/div/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;select-biaya&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

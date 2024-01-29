@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_angsuranPertama</name>
+   <name>label_ubahvarian</name>
    <tag></tag>
-   <elementGuidId>21cde1d8-e8cf-40e8-b95b-ef0a1d190e61</elementGuidId>
+   <elementGuidId>66a4dcc6-61dc-48ec-9faf-14991c5680d7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;pembayaran-angsuran&quot;]/div/div/div</value>
+         <value>//*[@id=&quot;pilih_varian_mobile&quot;]/option[5]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

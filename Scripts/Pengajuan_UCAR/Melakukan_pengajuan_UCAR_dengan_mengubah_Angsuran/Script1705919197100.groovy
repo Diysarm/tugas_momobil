@@ -37,7 +37,7 @@ WebUI.click(findTestObject('PDP/dropdown_angsuranPertama'))
 
 WebUI.click(findTestObject('PDP/label_angsuranDibelakang'))
 
-WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanAngsuranPertama'))
+WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanAngsuranPertamaUCAR'))
 
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))
 

@@ -6,12 +6,11 @@
    <elementGuidId>bac97ac4-fd4d-480d-8f29-10d46df3b470</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//*[@id=&quot;tenor-form&quot;]/p)[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
