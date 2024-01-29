@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_DealerRekanan</name>
+   <name>label_MenampilkanDaerahSTRONG</name>
    <tag></tag>
-   <elementGuidId>c327072a-6eff-4d54-ad06-a8b223653199</elementGuidId>
+   <elementGuidId>1b4111ea-f4d3-4a5c-a29e-1a20da52e853</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Mitra Dealer')]/following-sibling::ul/descendant::p[contains(text(),'Dealer Rekanan')]</value>
+         <value>//*[@id=&quot;bodyStyleDealer&quot;]/div[2]/div/p/strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
