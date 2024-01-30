@@ -60,10 +60,10 @@ public class SplitText {
 	def verifyFilterTahun(int result2, TestObject tahunMobil) {
 		for (int j = 0 ; j < result2 ; j++) {
 			String carYear = WebUI.getText(findTestObject('Object Repository/Dealer_Rekanan_Page/label_TahunMobilImg', [('j') : j]))
-			int tahunMobilInt = Integer.parseInt(carYear)  
+			int tahunMobilInt = Integer.parseInt(carYear)
 			int tahunProduksiMinimal = Integer.parseInt(GlobalVariable.ThnProduksiMin)
 			int tahunProduksiMaximal = Integer.parseInt(GlobalVariable.ThnProduksiMax)
-			
+
 			println(tahunMobilInt)
 			if(tahunProduksiMinimal <= tahunMobilInt && tahunProduksiMaximal >= tahunMobilInt) {
 				println('Filter tahun produksi sudah sesuai')

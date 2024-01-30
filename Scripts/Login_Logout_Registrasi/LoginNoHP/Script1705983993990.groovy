@@ -60,6 +60,8 @@ WebUI.takeScreenshot()
 'klik button masuk untuk login'
 WebUI.click(findTestObject('Login_Page/button_Masuk'))
 
+WebUI.delay(4)
+
 'verifikasi jika sudah berhasil login'
 WebUI.verifyElementVisible(findTestObject('Home_Page/Button_User'))
 
