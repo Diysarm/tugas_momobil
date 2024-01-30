@@ -17,13 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'klik button tanda user'
 WebUI.click(findTestObject('Home_Page/Button_User'))
 
+'ambil screenshot'
 WebUI.takeScreenshot()
 
+'klik button logout untuk logout'
 WebUI.click(findTestObject('Home_Page/Button_Logout'))
 
-WebUI.verifyElementClickable(findTestObject('Home_Page/Button_MasukDaftar'))
+'verifikasi button masuk sudah berubah'
+WebUI.verifyElementVisible(findTestObject('Home_Page/Button_Masuk'))
 
-WebUI.verifyElementVisible(findTestObject('Home_Page/Button_MasukDaftar'))
+'verifikasi button masuk dapat di klik'
+WebUI.verifyElementClickable(findTestObject('Home_Page/Button_Masuk'))
 

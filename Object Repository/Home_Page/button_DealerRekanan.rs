@@ -6,11 +6,11 @@
    <elementGuidId>c327072a-6eff-4d54-ad06-a8b223653199</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;ember197&quot;]/p[contains(text(), 'Dealer Rekanan')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Mitra Dealer')]/following-sibling::ul/descendant::p[contains(text(),'Dealer Rekanan')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

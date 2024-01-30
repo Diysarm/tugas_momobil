@@ -6,11 +6,11 @@
    <elementGuidId>b0edf0ad-459d-4bea-803f-29a6c98b6b0a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Promo')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[@aria-controls='promo_tabs']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
