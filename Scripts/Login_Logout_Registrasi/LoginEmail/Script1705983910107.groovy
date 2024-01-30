@@ -60,6 +60,7 @@ WebUI.takeScreenshot()
 'klik button masuk untuk login'
 WebUI.click(findTestObject('Login_Page/button_Masuk'))
 
+'delay 4 detik untuk menunggu web load'
 WebUI.delay(4)
 
 'verifikasi jika sudah berhasil login'
