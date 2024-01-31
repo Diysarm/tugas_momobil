@@ -25,4 +25,11 @@
       <testCaseId>Test Cases/Pengajuan_JualCepat/Melakukan_pengajuan_Jual_Cepat</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f5d27fc5-0622-41ea-be49-d38f26ce328b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Pengajuan_JualCepat/Pengajuan_Jual_Cepat_dengan_menginput_merek_dengan_invalid</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

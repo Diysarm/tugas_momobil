@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_NEW              Jual Mobil</name>
+   <name>button_Jual_Mobil</name>
    <tag></tag>
    <elementGuidId>236f3f27-85b7-48fd-ad25-52b60b4aae3c</elementGuidId>
    <selectorCollection>
