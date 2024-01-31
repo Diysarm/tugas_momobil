@@ -37,17 +37,14 @@ WebUI.click(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
-'verifikasi wording angsuran pertama sudah muncul'
-WebUI.verifyElementVisible(findTestObject('PDP/label_angsuranPertama'))
+'verifikasi wording Uang Muka sudah muncul'
+WebUI.verifyElementVisible(findTestObject('PDP/label_DP'))
 
-'klik button dropdown angsuran pertama'
-WebUI.click(findTestObject('PDP/dropdown_angsuranPertama'))
-
-'klik angsuran dibelakang'
-WebUI.click(findTestObject('PDP/label_angsuranDibelakang'))
+'input harga UAng Muka'
+WebUI.setText(findTestObject('PDP/textbox_DP'), '90000000')
 
 'verifikasi cicilan sudah terupdate dan sudah sesuai'
-WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanAngsuran PertamaNCAR'))
+WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanDPNCAR'))
 
 'verifikasi button ajukan pembiayaan sudah muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))

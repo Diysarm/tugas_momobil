@@ -17,26 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Klik button Mobil Baru'
 WebUI.click(findTestObject('Home_Page/button_mobilBaru'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'Verifikasi apakah unit mobil ada'
 WebUI.verifyElementVisible(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
+'Klik unit mobil'
 WebUI.click(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'verifikasi apakah button Ajukan Pembiayaan muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))
 
+'Klik button ajukan pembiayaan'
 WebUI.click(findTestObject('PDP/button_ajukanPembiayaan'))
 
+'Verifikasi apakah button submit muncul'
 WebUI.verifyElementVisible(findTestObject('Halaman_Konfirmasi/button_submit'))
 
+'Klik button Submit'
 WebUI.click(findTestObject('Halaman_Konfirmasi/button_submit'))
 
+'Verifikasi apakah button konfirmsi Submit muncul'
 WebUI.verifyElementVisible(findTestObject('Halaman_Konfirmasi/button_konfirmasiSubmit'))
 
+'Klik button konfirmasi Submit'
 WebUI.click(findTestObject('Halaman_Konfirmasi/button_konfirmasiSubmit'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()

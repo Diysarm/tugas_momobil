@@ -23,31 +23,31 @@ WebUI.openBrowser('https://uat.momobil.id/')
 WebUI.maximizeWindow()
 
 'klik button mobil baru'
-WebUI.click(findTestObject('Home_Page/button_mobilBaru'))
+WebUI.click(findTestObject('Home_Page/button_mobilBekas'))
 
 'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
 'verifikasi unit mobil sudah muncul'
-WebUI.verifyElementVisible(findTestObject('Katalog_mobilBaru/label_unitNcar'))
+WebUI.verifyElementVisible(findTestObject('Katalog_mobilBekas/label_unitUcar'))
 
 'klik unit mobil'
-WebUI.click(findTestObject('Katalog_mobilBaru/label_unitNcar'))
+WebUI.click(findTestObject('Katalog_mobilBekas/label_unitUcar'))
 
 'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
-'verifikasi wording angsuran pertama sudah muncul'
-WebUI.verifyElementVisible(findTestObject('PDP/label_angsuranPertama'))
+'memberikan delay selama 3s'
+WebUI.delay(3)
 
-'klik button dropdown angsuran pertama'
-WebUI.click(findTestObject('PDP/dropdown_angsuranPertama'))
+'verifikasi wording Uang Muka sudah muncul'
+WebUI.verifyElementVisible(findTestObject('PDP/label_DP'))
 
-'klik angsuran dibelakang'
-WebUI.click(findTestObject('PDP/label_angsuranDibelakang'))
+'input harga UAng Muka'
+WebUI.setText(findTestObject('PDP/textbox_DP'), '150000000')
 
 'verifikasi cicilan sudah terupdate dan sudah sesuai'
-WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanAngsuran PertamaNCAR'))
+WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanDPUCAR'))
 
 'verifikasi button ajukan pembiayaan sudah muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))
