@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_KonfirmasiPengajuan</name>
+   <tag></tag>
+   <elementGuidId>b6bb42f8-30c4-4bee-b9c5-6fb2dcf1be64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='konfirmasi-pengajuan-new']/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.title-head</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4d7c67e3-85f1-4ea4-9181-a8896e833d39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title-head</value>
+      <webElementGuid>8d7c4f18-9c16-4148-ac71-7b4ddb127a78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Konfirmasi pengajuan</value>
+      <webElementGuid>3c05a15f-1ad3-4536-bd4f-5cfc485b56cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;konfirmasi-pengajuan-new&quot;)/div[@class=&quot;MuiContainer-root MuiContainer-maxWidthLg css-wuga8x&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-tuxzvu&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-md-8 css-fk796o&quot;]/div[@class=&quot;title-head&quot;]</value>
+      <webElementGuid>020f7a3c-e33b-434b-83e6-4ec552aa3c9f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='konfirmasi-pengajuan-new']/div[2]/div/div/div</value>
+      <webElementGuid>51b39c05-b806-4a03-b03b-afe0fadfe57a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confero'])[4]/following::div[5]</value>
+      <webElementGuid>1dbee7b0-e9b5-4390-84ae-b9e2fbcf96d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fortuner'])[8]/following::div[6]</value>
+      <webElementGuid>6027ee48-66fc-4696-b99a-5488afbaaac5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pastikan data diri kamu lengkap dan benar'])[1]/preceding::div[1]</value>
+      <webElementGuid>bd113db0-ec5b-494d-b9da-83fdee52dd30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/preceding::div[3]</value>
+      <webElementGuid>e39e69a5-1dad-4c5c-b2f6-1ec2c26c952b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Konfirmasi pengajuan']/parent::*</value>
+      <webElementGuid>f8d83168-0b05-4a2d-bea1-5614292a6615</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body/div/div/div/div[2]/div/div/div</value>
+      <webElementGuid>9c7bf242-5f86-4352-bf02-62f455923557</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Konfirmasi pengajuan' or . = 'Konfirmasi pengajuan')]</value>
+      <webElementGuid>2696729a-6682-4e1e-9fe7-1242bd0d9dbe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

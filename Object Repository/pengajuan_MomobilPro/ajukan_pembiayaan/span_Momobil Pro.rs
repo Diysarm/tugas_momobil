@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Momobil Pro</name>
+   <tag></tag>
+   <elementGuidId>0a02d6f0-be61-48d8-886d-aa3afd445ea7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='section-hero-search']/div/div/div/div[2]/ul/li[4]/a/button/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bb01c483-26af-4b6f-84cc-0bb5c1b094f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>car_link_text</value>
+      <webElementGuid>7645b772-e5eb-4226-ba21-d7935a7998e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Momobil Pro</value>
+      <webElementGuid>bcacc5f0-74dc-4c1c-9f8e-281f3c47d458</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;section-hero-search&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;wrapper-section-hero&quot;]/div[@class=&quot;card-hero-search&quot;]/div[@class=&quot;wrapper-car-nav&quot;]/ul[1]/li[4]/a[1]/button[@class=&quot;car-nav&quot;]/span[@class=&quot;car_link_text&quot;]</value>
+      <webElementGuid>12fe1b80-2646-4e87-87e3-276f5537c8ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='section-hero-search']/div/div/div/div[2]/ul/li[4]/a/button/span[2]</value>
+      <webElementGuid>a999e7f8-890c-4235-afc8-7a784daf7df2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tukar Tambah'])[2]/following::span[2]</value>
+      <webElementGuid>36d1e1b9-057b-4ab3-bb5d-2eaf4d57772c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobil Bekas'])[2]/following::span[4]</value>
+      <webElementGuid>30ba91c8-f56f-42f9-8fa1-38af83fa69c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merek unggulan'])[1]/preceding::span[1]</value>
+      <webElementGuid>508dc5df-9ba3-44a0-aa8b-ad86cf940157</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalkulator harga mobil'])[1]/preceding::span[1]</value>
+      <webElementGuid>7f4917cb-8a36-46c0-abb1-a4ca2e9dd183</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/button/span[2]</value>
+      <webElementGuid>32f122c1-3d32-4ed1-8e54-191976ccde70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Momobil Pro' or . = 'Momobil Pro')]</value>
+      <webElementGuid>819bce56-c757-409b-ae74-bc5bfab4b7c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
