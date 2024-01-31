@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>produk_dipilih</name>
+   <tag></tag>
+   <elementGuidId>91145ba0-c65d-4414-b5f2-f1085c3ba490</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//p[@id='label_unitMomobilPro1']/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#label_unitMomobilPro1 > a > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d071e1e7-4ed1-4581-8dc5-1f5c9ba6d0fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>itemprop</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>69e70030-8e6e-4ae8-aca4-f9ca54e8441b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TOYOTA YARIS 1.5 J MT B</value>
+      <webElementGuid>08bdc50c-18fd-42d3-ab22-6a3145f6da32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;label_unitMomobilPro1&quot;)/a[1]/span[1]</value>
+      <webElementGuid>807259ac-cc6a-4ac0-9d84-655ac256261a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//p[@id='label_unitMomobilPro1']/a/span</value>
+      <webElementGuid>08b4977a-0006-43c4-8330-5540d3968d62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[1]/following::span[5]</value>
+      <webElementGuid>0ab38f5f-8c39-4ed6-9b79-2fc71f5a25e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terupdate'])[1]/following::span[6]</value>
+      <webElementGuid>63df0a37-6821-49fe-bcc1-0afc6b54a965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DAIHATSU AYLA 1.0 X DELUXE'])[1]/preceding::span[9]</value>
+      <webElementGuid>f9c8f2da-eb80-4467-937d-cf5a3c569966</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOYOTA KIJANG INNOVA'])[1]/preceding::span[18]</value>
+      <webElementGuid>1b414149-8249-4b03-8df3-4e650283b806</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='TOYOTA YARIS 1.5 J MT B']/parent::*</value>
+      <webElementGuid>bc3d7934-d9ec-41f3-a1e3-b8bb341c39c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/a/span</value>
+      <webElementGuid>ae0a9e4b-8c06-4ebc-8b48-b948deee510d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'TOYOTA YARIS 1.5 J MT B' or . = 'TOYOTA YARIS 1.5 J MT B')]</value>
+      <webElementGuid>991b3942-0dd0-44f5-ba8e-419f241c0f90</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Merekunggulan</name>
+   <tag></tag>
+   <elementGuidId>a3c6a8bc-d2e8-413e-8d77-59322ee43372</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='section-hero-search']/div/div/div/div[3]/h5</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.wrapper-car-merek > h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h5</value>
+      <webElementGuid>61297578-8ef1-4bc2-a5c1-088def69807f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Merek unggulan</value>
+      <webElementGuid>2c8437d0-325f-4293-bdbe-5f787db8ed67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;section-hero-search&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;wrapper-section-hero&quot;]/div[@class=&quot;card-hero-search&quot;]/div[@class=&quot;wrapper-car-merek&quot;]/h5[1]</value>
+      <webElementGuid>b51e5cc9-4ede-4b53-9310-58c107b164db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='section-hero-search']/div/div/div/div[3]/h5</value>
+      <webElementGuid>71292fc0-2fcd-4880-8c4e-82ec180a6113</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Momobil Pro'])[2]/following::h5[1]</value>
+      <webElementGuid>37c418d0-27f5-42ca-b934-8499e88ce845</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tukar Tambah'])[2]/following::h5[1]</value>
+      <webElementGuid>a4ca84a4-f8e5-46d8-b1de-879d7e8a0046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalkulator harga mobil'])[1]/preceding::h5[1]</value>
+      <webElementGuid>b31d031d-eb00-4079-b8f8-73dd8d11e3a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Merek unggulan']/parent::*</value>
+      <webElementGuid>07a63738-e97a-499d-96fd-3f0cab7e94f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/h5</value>
+      <webElementGuid>eeef64e9-7296-417a-9b17-e0c9276695b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h5[(text() = 'Merek unggulan' or . = 'Merek unggulan')]</value>
+      <webElementGuid>a3a3838a-7d7c-4ecb-85da-e8e6e2f597db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
