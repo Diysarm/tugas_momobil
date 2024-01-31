@@ -16,44 +16,62 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+'membuka browser'
 WebUI.openBrowser('https://uat.momobil.id/')
 
 WebUI.maximizeWindow()
 
+'klik button mobil baru'
 WebUI.click(findTestObject('Home_Page/button_mobilBaru'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'verifikasi unit mobil sudah muncul atau belum'
 WebUI.verifyElementVisible(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
+'klik unit mobil'
 WebUI.click(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'verifikasi tenor yang akan dipilih sudah muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/label_tenor'))
 
+'klik button tenor yang akan dipilih'
 WebUI.click(findTestObject('PDP/button_tenor48'))
 
+'verifikasi cicilan ncar sudah terupdate dan sesuai'
 WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanNCAR'))
 
+'verifikasi button ajukan pembiayaan'
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))
 
+'klik button ajukan pembiayaan'
 WebUI.click(findTestObject('PDP/button_ajukanPembiayaan'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'input nama lengkap'
 WebUI.setText(findTestObject('Halaman_Konfirmasi/textbox_namaLengkap'), 'Testing Yudha')
 
+'input email'
 WebUI.setText(findTestObject('Halaman_Konfirmasi/textbox_email'), 'qamomobil@gmail.co.id')
 
+'input no. Hp'
 WebUI.setText(findTestObject('Halaman_Konfirmasi/textbox_NomorHP'), '081265021613')
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'klik button submit'
 WebUI.click(findTestObject('Halaman_Konfirmasi/button_submit'))
 
+'Klik button konfirmasi submit'
 WebUI.click(findTestObject('Halaman_Konfirmasi/button_konfirmasiSubmit'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 

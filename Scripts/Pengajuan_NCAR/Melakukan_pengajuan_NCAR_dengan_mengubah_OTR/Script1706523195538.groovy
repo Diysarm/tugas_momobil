@@ -17,36 +17,51 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'membuka browser'
 WebUI.openBrowser('https://uat.momobil.id/')
 
 WebUI.maximizeWindow()
 
+'klik button mobil baru'
 WebUI.click(findTestObject('Home_Page/button_mobilBaru'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'verifikasi unit mobil sudah muncul'
 WebUI.verifyElementVisible(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
+'klik unit mobil'
 WebUI.click(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'verifikasi wording varian sudah muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/label_varian'))
 
+'klik button text ubah'
 WebUI.click(findTestObject('PDP/button_ubah'))
 
+'verifikasi otr bekasi sudah muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/label_OTRBekasi'))
 
+'klik radio button otr bekasi'
 WebUI.click(findTestObject('PDP/label_OTRBekasi'))
 
+'klik button pilih'
 WebUI.click(findTestObject('PDP/button_pilihOTR'))
 
+'verifikasi cicilan sudah terupdate dan sudah sesuai'
 WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanOTR'))
 
+'verifikasi button ajukan pembiayaan muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))
 
+'klik button ajukan pembiayaan'
 WebUI.click(findTestObject('PDP/button_ajukanPembiayaan'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
 WebUI.setText(findTestObject('Halaman_Konfirmasi/textbox_namaLengkap'), 'Testing Yudha')

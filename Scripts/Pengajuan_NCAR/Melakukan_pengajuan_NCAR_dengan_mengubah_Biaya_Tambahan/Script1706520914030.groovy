@@ -16,46 +16,65 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
+'membuka browser'
 WebUI.openBrowser('https://uat.momobil.id/')
 
 WebUI.maximizeWindow()
 
+';klik button mobil baru'
 WebUI.click(findTestObject('Home_Page/button_mobilBaru'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'verifikasi unit mobil sudah muncul'
 WebUI.verifyElementVisible(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
+'klik unit mobi'
 WebUI.click(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'verifikasi wording biaya tambahan muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/label_biayaTambahan'))
 
+'klik button biaya tambahan'
 WebUI.click(findTestObject('PDP/dropdown_biayaTambahan'))
 
+'klik biaya tambahan yang Kredit'
 WebUI.click(findTestObject('PDP/label_biayaTambahanKredit'))
 
+'Verifikasi cicilan sudah terupdate dan sudah sesuai'
 WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanKreditNCAR'))
 
+'verifikasi button ajukan pembiayaan sudah muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))
 
+'klik button ajukan pembiayaan'
 WebUI.click(findTestObject('PDP/button_ajukanPembiayaan'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'input nama lengkap'
 WebUI.setText(findTestObject('Halaman_Konfirmasi/textbox_namaLengkap'), 'Testing Yudha')
 
+'input email'
 WebUI.setText(findTestObject('Halaman_Konfirmasi/textbox_email'), 'qamomobil@gmail.co.id')
 
+'input no Hp'
 WebUI.setText(findTestObject('Halaman_Konfirmasi/textbox_NomorHP'), '081265021613')
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
+'klik button submit'
 WebUI.click(findTestObject('Halaman_Konfirmasi/button_submit'))
 
+'klik button konfirmasi submit'
 WebUI.click(findTestObject('Halaman_Konfirmasi/button_konfirmasiSubmit'))
 
+'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 

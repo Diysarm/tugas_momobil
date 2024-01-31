@@ -37,17 +37,23 @@ WebUI.click(findTestObject('Katalog_mobilBaru/label_unitNcar'))
 'Ambil SS untuk evidence'
 WebUI.takeScreenshot()
 
-'verifikasi wording angsuran pertama sudah muncul'
-WebUI.verifyElementVisible(findTestObject('PDP/label_angsuranPertama'))
+'kasih delay 2s'
+WebUI.delay(2)
 
-'klik button dropdown angsuran pertama'
-WebUI.click(findTestObject('PDP/dropdown_angsuranPertama'))
+'verifikasi wording Kelurahan sudah muncul'
+WebUI.verifyElementVisible(findTestObject('PDP/label_kelurahan'))
 
-'klik angsuran dibelakang'
-WebUI.click(findTestObject('PDP/label_angsuranDibelakang'))
+'input kelurahan'
+WebUI.setText(findTestObject('PDP/textbox_kelurahan'), 'karet')
+
+'memberika inputan dari keyboard'
+WebUI.sendKeys(findTestObject('PDP/textbox_kelurahan'), Keys.chord(Keys.DOWN))
+
+'memberika inputan dari keyboard'
+WebUI.sendKeys(findTestObject('PDP/textbox_kelurahan'), Keys.chord(Keys.ENTER))
 
 'verifikasi cicilan sudah terupdate dan sudah sesuai'
-WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanAngsuran PertamaNCAR'))
+WebUI.verifyElementVisible(findTestObject('PDP/label_cicilanKelurahan'))
 
 'verifikasi button ajukan pembiayaan sudah muncul'
 WebUI.verifyElementVisible(findTestObject('PDP/button_ajukanPembiayaan'))
